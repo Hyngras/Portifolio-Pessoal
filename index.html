@@ -3,56 +3,182 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre Mim - Hyngrid Souza</title>
+    <meta name="description" content="HSS cria automações inteligentes, bots operacionais e integrações para empresas que querem ganhar produtividade com tecnologia aplicada.">
+    <title>HSS | Automação, IA e Sistemas para Operações</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Menu de Navegação -->
-    <nav class="navbar">
+    <nav class="navbar" aria-label="Navegação principal">
+        <a class="brand" href="index.html" aria-label="HSS início">
+            <span class="brand-mark">HSS</span>
+            <span class="brand-copy">Hyngrid Souza Solutions</span>
+        </a>
         <ul>
-            <li><a href="index.html">Sobre Mim</a></li>
-            <li><a href="biomedica.html">Engenharia Biomédica</a></li>
-            <li><a href="ads.html">Análise e Desenvolvimento de Sistemas</a></li>
-            <li><a href="experiencia.html">Experiência de Estágio</a></li>
-            <li><a href="publicacoes.html">Publicações</a></li>
+            <li><a href="#solucoes">Soluções</a></li>
+            <li><a href="#processo">Processo</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#contato" class="nav-cta">Contato</a></li>
         </ul>
     </nav>
 
-    <!-- Cabeçalho com perfil -->
-    <header class="header">
-        <div class="profile-container">
-            <img src="imag/Novo.01.png" alt="Hyngrid Souza" class="profile-img">
+    <header class="hero">
+        <div class="hero-content">
+            <p class="eyebrow">Automação inteligente para operações reais</p>
+            <h1>Transforme rotinas manuais em fluxos digitais confiáveis.</h1>
+            <p class="hero-lead">
+                A HSS desenvolve bots, integrações e sistemas sob medida para reduzir retrabalho,
+                organizar informações e acelerar equipes que dependem de WhatsApp, CRM, planilhas
+                e processos administrativos.
+            </p>
+            <div class="hero-actions">
+                <a class="button primary" href="mailto:hyngrid.hss@ufpe.br?subject=Quero%20automatizar%20um%20processo%20com%20a%20HSS">Solicitar diagnóstico</a>
+                <a class="button secondary" href="#solucoes">Ver soluções</a>
+            </div>
         </div>
-        <div class="header-text">
-            <h1>Hyngrid <span class="highlight">Souza</span></h1>
-            <p>Sou estudante de Engenharia Biomédica e Desenvolvimento de Sistemas, com o objetivo de integrar tecnologia e saúde para melhorar a qualidade de vida das pessoas. Minha jornada acadêmica e profissional é guiada pela busca de soluções inovadoras que combinem ciência, engenharia e tecnologia para enfrentar desafios no campo da saúde. Tenho um interesse especial em me atualizar sobre novas ferramentas de diagnóstico por imagem e dispositivos médicos inteligentes para apoio.</p>
-        </div>
+        <aside class="hero-panel" aria-label="Resumo de impacto">
+            <div class="profile-card">
+                <img src="imag/Novo.01.png" alt="Hyngrid Souza, fundadora da HSS">
+                <div>
+                    <strong>Hyngrid Souza</strong>
+                    <span>IA, sistemas e engenharia biomédica</span>
+                </div>
+            </div>
+            <div class="metrics-grid">
+                <div>
+                    <strong>10+</strong>
+                    <span>tipos de bots operacionais</span>
+                </div>
+                <div>
+                    <strong>CRM</strong>
+                    <span>Kommo, WhatsApp e integrações</span>
+                </div>
+                <div>
+                    <strong>IA</strong>
+                    <span>análise, triagem e automação</span>
+                </div>
+                <div>
+                    <strong>B2B</strong>
+                    <span>foco em rotina, dados e escala</span>
+                </div>
+            </div>
+        </aside>
     </header>
 
-    <!-- Seção Família de Artistas e Acrobacia Circense -->
-    <section class="circus-section">
-        <h2>Como boa Recifense que sou...</h2>
-        <p>Adoro atividades energéticas, especialmente ao ar livre, e tenho uma grande paixão pela praia. Sou mãe de um doguinho adorável chamado Thomas, que está sempre ao meu lado e também adora o mar. Pratico arte circense há alguns anos, e esse é o momento mais aguardado da minha semana.</p>
-        <div class="gallery">
-            <img src="imag/C1.jpeg" alt="Foto de acrobacia 1" class="circus-img">
-            <img src="imag/T.png" alt="Foto de acrobacia 2" class="circus-img">
-            <img src="imag/46.jpeg" alt="Foto de acrobacia 3" class="circus-img">
-            <img src="imag/T3.png" alt="Foto de acrobacia 3" class="circus-img">
-            <img src="imag/C2.jpeg" alt="Foto de acrobacia 3" class="circus-img">
-            <img src="imag/T1.png" alt="Foto de acrobacia 3" class="circus-img">
-        </div>
-    </section>
-    <!-- Seção de Contato -->
-    <section id="contato" class="contact-section">
-        <h3>Entre em Contato</h3>
-        <p>Email: <a href="mailto:hyngrid.hss@ufpe.br">hyngrid.hss@ufpe.br</a></p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.423101460549!2d-34.874569325562305!3d-8.058251680509114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18a2985f5823%3A0x9d226b47935cba!2sCESAR%20-%20Centro%20de%20Estudos%20e%20Sistemas%20Avan%C3%A7ados%20do%20Recife!5e0!3m2!1spt-BR!2sbr!4v1727305245734!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <main>
+        <section class="section intro-section">
+            <div>
+                <p class="eyebrow">O que a HSS entrega</p>
+                <h2>Tecnologia aplicada sem complicar sua operação.</h2>
+            </div>
+            <p>
+                A proposta e entender o fluxo atual, desenhar uma automação viável e entregar
+                uma solução que sua equipe consiga usar no dia a dia. Menos tarefas repetitivas,
+                mais visibilidade e melhor tempo de resposta para clientes e gestores.
+            </p>
+        </section>
 
-    </section>
+        <section id="solucoes" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">Soluções</p>
+                <h2>Bots e sistemas para cada etapa da rotina.</h2>
+            </div>
+            <div class="services-grid">
+                <article class="service-card">
+                    <span>01</span>
+                    <h3>Atendimento e CRM</h3>
+                    <p>Fluxos no WhatsApp e Kommo para qualificar leads, responder clientes, organizar funis e acionar follow-ups.</p>
+                </article>
+                <article class="service-card">
+                    <span>02</span>
+                    <h3>Backoffice automático</h3>
+                    <p>Bots para cadastro, conferência, emissão, download de documentos e atualização de bases operacionais.</p>
+                </article>
+                <article class="service-card">
+                    <span>03</span>
+                    <h3>Relatórios e monitoramento</h3>
+                    <p>Painéis, alertas e rotinas de coleta para transformar informações espalhadas em indicadores acompanháveis.</p>
+                </article>
+                <article class="service-card">
+                    <span>04</span>
+                    <h3>IA para saúde e dados</h3>
+                    <p>Experiência em projetos com IA, processamento de imagens, chatbots e análises aplicadas ao contexto biomédico.</p>
+                </article>
+            </div>
+        </section>
 
-    <!-- Footer -->
+        <section id="processo" class="section process-section">
+            <div class="section-heading">
+                <p class="eyebrow">Método</p>
+                <h2>Da dor operacional ao fluxo funcionando.</h2>
+            </div>
+            <div class="timeline">
+                <article>
+                    <strong>Diagnóstico</strong>
+                    <p>Mapeamento do processo, gargalos, ferramentas atuais e critérios de sucesso.</p>
+                </article>
+                <article>
+                    <strong>Desenho</strong>
+                    <p>Definição do fluxo, regras, campos, integrações e pontos de controle antes do desenvolvimento.</p>
+                </article>
+                <article>
+                    <strong>Implementação</strong>
+                    <p>Configuração de bots, automações, telas, scripts e documentação para uso da equipe.</p>
+                </article>
+                <article>
+                    <strong>Evolução</strong>
+                    <p>Ajustes pós-lançamento, novas rotas, indicadores e melhorias conforme o uso real aparece.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="portfolio" class="section portfolio-section">
+            <div class="section-heading">
+                <p class="eyebrow">Portfólio</p>
+                <h2>Base técnica multidisciplinar.</h2>
+            </div>
+            <div class="portfolio-grid">
+                <a class="portfolio-card" href="ads.html">
+                    <img src="imag/20.png" alt="Tela de projeto mobile Eco Gee">
+                    <div>
+                        <h3>Sistemas e desenvolvimento</h3>
+                        <p>Projetos web, mobile, banco de dados e automação com foco em solução prática.</p>
+                    </div>
+                </a>
+                <a class="portfolio-card" href="biomedica.html">
+                    <img src="imag/04.jpeg" alt="Projeto Mamo IA em evento acadêmico">
+                    <div>
+                        <h3>IA e engenharia biomédica</h3>
+                        <p>Pesquisa aplicada em saúde, imagens médicas, sinais e chatbots científicos.</p>
+                    </div>
+                </a>
+                <a class="portfolio-card" href="experiencia.html">
+                    <img src="imag/44.jpeg" alt="Certificado de bootcamp de tecnologia">
+                    <div>
+                        <h3>Experiência e formação</h3>
+                        <p>Vivência em IA, automação, monitoria e desenvolvimento backend.</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section id="contato" class="contact-section">
+            <div>
+                <p class="eyebrow">Vamos conversar</p>
+                <h2>Tem um processo repetitivo travando sua equipe?</h2>
+                <p>Envie sua demanda e receba um diagnóstico inicial para entender o que pode ser automatizado primeiro.</p>
+            </div>
+            <div class="contact-actions">
+                <a class="button primary" href="mailto:hyngrid.hss@ufpe.br?subject=Diagnóstico%20HSS">hyngrid.hss@ufpe.br</a>
+                <a class="button secondary" href="https://www.linkedin.com/in/hyngrid-souza">LinkedIn</a>
+            </div>
+        </section>
+    </main>
+
     <footer class="footer">
-        <p>&copy; 2024 Hyngrid Souza. Todos os direitos reservados.</p>
+        <p>&copy; 2026 HSS - Hyngrid Souza Solutions. Automação, IA e sistemas para operações mais inteligentes.</p>
     </footer>
 </body>
 </html>
